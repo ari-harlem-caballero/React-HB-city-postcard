@@ -35,6 +35,8 @@ function App() {
           In each Dropdown, pass as props the state handler functions defined above, so that these child components can manipulate parent state 
           */}
           <WaterfrontDropdown setWaterfrontId={setWaterfrontId} />
+          <SkylineDropdown setSkylineId={setSkylineId} />
+          <CastleDropdown setCastleId={setCastleId} />
         </section>
         {/* here, the SloganForm component takes in the setSlogans state handler function and the slogans array that live in state */}
         {/* here, the SloganList component takes the array of slogans that lives in state */}
