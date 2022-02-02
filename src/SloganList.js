@@ -1,12 +1,11 @@
 import React from 'react';
-import Slogan from './Slogan';
 
-export default function SloganList(props) {
+export default function SloganList({ slogansArr }) {
   return (
     <section>
       <h2>Your slogans:</h2>
       <ul>
-        {props.slogan.map((slogan, i) => <li key={`${slogan}-${i}`}>{slogan}
+        {slogansArr.map((slogan, i) => <li key={`${slogan}-${i}`}>{slogan}
         </li>)
         }
       </ul>

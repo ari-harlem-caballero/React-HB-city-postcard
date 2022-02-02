@@ -46,7 +46,7 @@ function App() {
         {/* here, the SloganForm component takes in the setSlogans state handler function and the slogans array that live in state */}
         <SloganForm setSlogansArr={setSlogansArr} slogansArr={slogansArr}/>
         {/* here, the SloganList component takes the array of slogans that lives in state */}
-      
+        <SloganList slogansArr={slogansArr} />
       </div>
     </div>
   );
